@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 input; // The input for the player's movement
     private Vector3 targetPos; // The target position the player is moving towards
     public LayerMask blockingLayer; // The layer that represents objects that block movement
+    //
 
     // Update is called once per frame
     void FixedUpdate()
